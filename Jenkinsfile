@@ -1,6 +1,6 @@
 node {
   stage 'Checkout'
-  git url: 'https://github.com/ripo4ek/jenkins-docker-example.git'
+  git url: 'https://github.com/ripo4ek/identity.git'
 
   stage 'deploy'
   sh './deploy.sh'
